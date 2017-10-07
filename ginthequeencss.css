@@ -1,0 +1,20 @@
+.whole {width:1400;}
+
+
+.container img {
+  width: 150px; // Or whatever you want.
+  height: 150px; // Or whatever you want.
+  overflow: hidden;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.container img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+.container img {
+  max-width: 500px;
+  max-height: 500px;
+}
