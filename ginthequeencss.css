@@ -1,3 +1,9 @@
+.centered-and-cropped {
+  object-fit: cover
+    width:400
+    height:400
+}
+
 .photos-container{
   height: 100%; // doesn't have to be '%' can also use 'px'
   width: 100%;
