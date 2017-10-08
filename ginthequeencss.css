@@ -2,7 +2,7 @@
   height: 100%; // doesn't have to be '%' can also use 'px'
   width: 100%;
   margin: 0 auto;
-  padding: 100;
+  padding-top: 100;
 
   background-image: url(white_background.jpg);
   background-position: top center;
