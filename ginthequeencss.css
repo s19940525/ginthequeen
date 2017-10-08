@@ -1,12 +1,10 @@
-.photos {
-  object-fit: contain
-}
+.photos-container{
+  height: 100%; // doesn't have to be '%' can also use 'px'
+  width: 100%;
+  margin: 0 auto;
+  padding: 500;
 
-@media all and (max-width: 1024px) {
-	#wrapper {
-		width: 600px;
-	}
-}
-@media all and (max-width: 480px) {
-	#wrapper {
-		width: 300px;
+  background-image: url(001.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
