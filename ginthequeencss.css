@@ -12,3 +12,9 @@
 		width: 300px;
 	}
 }
+
+/* Logo must not appear too large on mobile */
+#portal-logo img {
+   width: 33%;
+   max-width: 180px;
+}
