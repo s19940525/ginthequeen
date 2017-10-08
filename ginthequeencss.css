@@ -1,4 +1,5 @@
 .container img {
-  width: 100%;
-  height: auto;
+ width: 950px;//Any width you want to set the image to.
+        max-width: 100%;
+        height: auto;
 }
