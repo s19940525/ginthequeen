@@ -1,6 +1,6 @@
-.centered-and-cropped { object-fit: cover }
 
-.container img { margin: -1.5px; object-position: static;}
+
+.container img { margin: -1.5px;}
 
 @media all and (max-width: 1024px) {
 	#wrapper {
