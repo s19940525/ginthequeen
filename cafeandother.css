@@ -1,0 +1,136 @@
+
+@font-face {
+	font-family:GraphikNarrowRegular;
+	src: url(GraphikNarrow-Regular.ttf);
+
+}
+
+
+@font-face {
+    font-family: ApercuBoldItalic;
+    src: url(Apercu-BoldItalic.ttf);
+}
+
+body {
+  background: #B7004E;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.whole {width:1400;}
+
+.categories {
+	text-align:center;
+	font-family:GraphikNarrowRegular;
+	font-size:14px;}
+		a {text-decoration: none;color: black;}
+
+#tab { display:inline-block; 
+       margin-left: 40px; }
+
+hr { 
+    display: block;
+    margin-top: .5em;
+    margin-bottom: 0em;
+    margin-left: 300;
+    margin-right: 300;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.cursor {
+	cursor: url('cursor.png'), auto;
+}
+
+.logo {
+	display:block;
+	text-align:center;
+	;
+}
+
+
+
+.main-title {
+	margin: 100 0 100 0px;
+
+    font-family: "ApercuBoldItalic";
+    font-size:60px;
+    text-align:center;
+}
+
+.text-body {
+	font-family: GraphikNarrowRegular;
+	font-size:16px;
+	margin: 50 300 0 300;
+	line-height:150%;
+}
+
+
+
+
+/* photos */
+
+
+#eighthundred  {
+	display:block;
+	margin: auto;
+	width:800;
+
+
+}
+
+#wrapper {
+	display:block;
+	margin: auto;
+	width:1000
+}
+    
+.left {
+	display:block;
+	float:left;
+	text-align:left;
+	width:490px;
+}
+#left {
+
+	width:480px;
+	;
+}
+
+.right {
+	display:block;
+	float:right;
+	text-align:left;
+	width:300px;
+;	
+}
+
+#right {
+	width:300px;
+;
+
+}
+
+#drinks {
+	padding-top:300px;
+}
+
+.thirdparagraph {
+	margin-top: 300px;
+}
+
+.credit {
+	font-family:GraphikNarrowRegular;
+	font-size: 14px;}
+ 	/*
+}
+
+@font-face {
+  font-family: MyHelvetica;
+  src: local("Helvetica Neue Bold"),
+       local("HelveticaNeue-Bold"),
+       url(MgOpenModernaBold.ttf);
+  font-weight: bold;
+}
