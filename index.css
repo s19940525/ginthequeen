@@ -1,0 +1,155 @@
+@font-face {
+    font-family: ApercuBoldItalic;
+    src: url(Apercu-BoldItalic.ttf);
+}
+
+@font-face {
+	font-family:GraphikNarrowRegular;
+	src: url(GraphikNarrow-Regular.ttf);
+}
+
+.screen {width:1400;}
+
+.cursor {cursor: url('cursor.png'), auto;	}
+
+.logo {
+	text-align:center;
+	text-decoration: none;
+	font-color:black;
+	font-family: ApercuBoldItalic
+	font-size:60;}
+	.logo a {
+		font-family: ApercuBoldItalic;
+		text-decoration:none;
+		color:black;
+		font-size:60;}
+
+.categories {
+	margin-top:10px;
+	text-align:center;
+	font-family:GraphikNarrowRegular;
+	font-size:14px;}
+	.categories a {
+		text-decoration: none;
+		color: black;
+		font-family:GraphikNarrowRegular;
+		font-size:14;
+		text-transform:uppercase;}
+
+#tab { display:inline-block; 
+       width: 20px; }
+
+hr { 
+    display: block;
+    margin-top: .5em;
+    margin-bottom: 50;
+    margin-left: 300;
+    margin-right: 300;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/*.three_column_photos {
+	margin-top:100;
+	text-align:center
+	width:400px;
+}*/
+
+.cheap_but_fun_life {
+	margin-top:100;
+	text-align: center
+}
+
+.pool {width:350px}
+
+.hanriver {width:350px;}
+	.hanriver:hover {
+  	content: url(001hover.jpg)
+	}}
+
+
+
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: black;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
+
+
+
+/* ============ category about ============ */
+
+
+.text {
+	width:700px;
+	display:block;
+	margin:auto;
+	font-family:GraphikNarrowRegular;
+	font-size:18px}
+	p {	line-height:150%;
+		}
+	h1 {font-size:24
+		;}
+
+	h2 {font-size:12pt; color:gray;}
+
+
+
+
+
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: '...read more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'close';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  color: #666;
+  font-size: .9em;
+  padding-top:-50px;
+}
+
+/* Other style */ 
+
+ul {
+    list-style-position: inside;
+    list-style-type:none;
+    padding-left:0;
+    line-height:150%;
+}
