@@ -8,7 +8,11 @@
 	src: url(GraphikNarrow-Regular.ttf);
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.screen img {width:600; }}
 
+	
 
 .screen {width:1400;}
 
