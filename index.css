@@ -8,6 +8,8 @@
 	src: url(GraphikNarrow-Regular.ttf);
 }
 
+
+
 .screen {width:1400;}
 
 .cursor {cursor: url('cursor.png'), auto;	}
@@ -152,4 +154,10 @@ ul {
     list-style-type:none;
     padding-left:0;
     line-height:150%;
+}
+
+/* =========== BGM ======== */
+
+audio { 
+   display:none;
 }
